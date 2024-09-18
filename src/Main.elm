@@ -2,6 +2,7 @@ module Main exposing (main)
 
 import Browser
 import Html exposing (..)
+import Html.Attributes exposing (class)
 
 
 main : Program () Model Msg
@@ -49,7 +50,8 @@ view : Model -> Browser.Document Msg
 view model =
     { title = "Document Title"
     , body =
-        [ div []
-            [ text "ANother document" ]
+        [ div
+            [ class "w-screen h-screen flex justify-center items-center text-contrast-500 bg-slate-500" ]
+            [ text "Another document" ]
         ]
     }

@@ -1,2 +1,5 @@
 node_modules/
+elm-stuff/
 gen/
+tailwind.config.js
+tailwind.css

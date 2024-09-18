@@ -1,4 +1,5 @@
 import { Elm } from "./Main.elm";
+import '../tailwind.css';
 
 let app = Elm.Main.init({
   node: document.getElementById("app"),

@@ -4,8 +4,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "run": "node esbuild.config.js",
+    "build": "node esbuild.config.js",
     "watch": "node esbuild.config.js --watch",
+    "theme": "tailwindcss-themer-cli generate",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -13,8 +14,13 @@
   "description": "",
   "devDependencies": {
     "@jgoz/esbuild-plugin-livereload": "^2.1.1",
+    "autoprefixer": "^10.4.20",
     "esbuild": "^0.23.1",
     "esbuild-plugin-elm": "^0.0.12",
+    "esbuild-style-plugin": "^1.6.3",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12",
+    "tailwindcss-themer-cli": "^1.0.1",
     "typescript": "^5.6.2"
   }
 }
