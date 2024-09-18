@@ -1,0 +1,20 @@
+{
+  "name": "esbuild-elm-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "node esbuild.config.js",
+    "watch": "node esbuild.config.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@jgoz/esbuild-plugin-livereload": "^2.1.1",
+    "esbuild": "^0.23.1",
+    "esbuild-plugin-elm": "^0.0.12",
+    "typescript": "^5.6.2"
+  }
+}
